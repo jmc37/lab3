@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">lab3</string>
+    <string name="title">Colors and Songs by Joseph Chan</string>
+    <string name="song_button_1">Songs 1</string>
+    <string name="song_button_2">Songs 2</string>
+
+    <string-array name="song_set_1">
+    <item>Heroes and Villains</item>
+    <item>Superhero</item>
+    <item>Too Many</item>
+    <item>Raindrops</item>
+    <item>Umbrella</item>
+
+    </string-array>
+
+    <string-array name="song_set_2">
+    <item>Staying Alive</item>
+    <item>Dancing Queen</item>
+    <item>Dreams</item>
+    <item>Play You Make Loving Fun</item>
+    <item>Mamma Mia</item>
+    </string-array>
+</resources>
