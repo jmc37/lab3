@@ -2,7 +2,7 @@ const http = require('http');
 const url = require('url')
 const fs = require('fs'); // Added to interact with the file system
 
-const util = require('./modules/util')
+const util = require('./COMP4537/labs/3/modules/util')
 
 const hostname = '0.0.0.0'; // Change from '127.0.0.1' to '0.0.0.0'
 const port = process.env.PORT || 3000; // Use the PORT environment variable if provided
