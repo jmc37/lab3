@@ -4,7 +4,7 @@ const fs = require('fs'); // Added to interact with the file system
 
 const util = require('./modules/util')
 
-const hostname = '127.0.0.1'; // Change from '127.0.0.1' to '0.0.0.0'
+const hostname = '0.0.0.0'; // Change from '127.0.0.1' to '0.0.0.0'
 const port = process.env.PORT || 3000; // Use the PORT environment variable if provided
 const server = http.createServer(function(req,res){
     let parsedUrl = url.parse(req.url, true);
